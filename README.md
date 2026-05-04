@@ -56,3 +56,7 @@ Durante o desenvolvimento enfrentei alguns erros importantes:
 - Melhorar o design com CSS
 - Tornar a calculadora mais intuitiva
 - Adicionar validação (ex: evitar divisão por zero)
+
+🌐 Acesse o projeto
+
+👉 https://ediedison337-ui.github.io/Calculadora-js/
