@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <meta charset=UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calc">
+    <input type="number" id="n1" placeholder="Número 1">
+    <input type="number" id="n2" placeholder="Número 2">
+    
+    <div class="botoes">
+      
+    <button onclick="setOperacao('+')"> + </button>
+    <button onclick="setOperacao('-')"> - </button>
+    </div>
+    <button onclick="calcular()">=</button>
+    <div class="resultado-box">
+      
+  <span>Total:</span>
+      
+  <span id="resultado">0</span>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
+    
