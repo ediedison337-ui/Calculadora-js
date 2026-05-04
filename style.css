@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  background: #f0f0f0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.calc {
+  background: beige;
+  padding: 20px;
+  width: 250px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  background: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+.botoes {
+  padding : 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes button {
+  width: 48%;
+}
